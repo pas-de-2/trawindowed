@@ -273,6 +273,8 @@ namespace trashim
 
             // Create the framerate timer.
             initialise_timer();
+            toggle_border();
+            toggle_on_top();
         }
 
         device_width = display_width;
